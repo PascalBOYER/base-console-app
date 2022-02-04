@@ -22,6 +22,9 @@
 	      <configuration>
 		 <archive>
 		     <manifest>
+			      <addClasspath>true</addClasspath>
+            		<classpathPrefix>classes/</classpathPrefix>
+            
 			 <mainClass>fr.epsi.base.console.app.Program</mainClass>   
 		    </manifest>
 		 </archive>
