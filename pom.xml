@@ -4,10 +4,18 @@
     <groupId>fr.epsi</groupId>
     <artifactId>base-console-app</artifactId>
     <version>stable</version>
+    <configuration>
+	  <archive>
+	    <manifest>
+		    <mainClass>fr.epsi.base.console.app.Program</mainClass>
+	    </manifest>
+	  </archive>
+	</configuration>
     <packaging>jar</packaging>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
     </properties>
+    
 </project>
