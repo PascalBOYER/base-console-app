@@ -16,6 +16,9 @@
 	   <plugin>
 	      <groupId>fr.epsi</groupId>
 	      <artifactId>base-console-app</artifactId>
+	      <version>stable</version>
+   
+              <packaging>jar</packaging>
 	      <configuration>
 		 <archive>
 		     <manifest>
