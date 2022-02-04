@@ -18,7 +18,7 @@
 	      <artifactId>base-console-app</artifactId>
 	      <version>stable</version>
    
-              <packaging>jar</packaging>
+              
 	      <configuration>
 		 <archive>
 		     <manifest>
